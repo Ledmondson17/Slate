@@ -1,0 +1,251 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+p{
+  color: white;
+}
+h1{
+  font-size: 50px;
+  margin-top: 20px;
+  color: white;
+  padding-left: 10px;
+}
+h2{
+  margin-top: 95px;
+  color: white;
+  text-align: center;
+}
+small{
+  color: white;
+  margin-left: 95px;
+}
+aside{
+  width: 100%;
+  height:90px;
+  border: 1px solid black;
+}
+.paraOne{
+  color: yellow;
+  text-align: center;
+}
+.leftContainer{
+  width: 63%;
+  height: 900px;
+  border: 1px solid black;
+  float: left;
+}
+.rightContainer{
+  width: 34%;
+  height: 900px;
+  border: 1px solid black;
+  float: left;
+}
+.topLeft{
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+  background:url("https://drlillianglassbodylanguageblog.files.wordpress.com/2015/08/screen-shot-2015-08-14-at-12-06-56-am.png");
+  background-size: cover;
+}
+.inside1{
+  width: 33.3333%;
+  border: 1px solid black;
+  float: left;
+  height: 350px;
+  background-color: black;
+   opacity: 0.9;
+}
+.inside2{
+  width: 33.3333%;
+  border: 1px solid black;
+  float: right;
+  height: 350px;
+  background-color: black;
+   opacity: 0.9;
+}
+.bottomLeft{
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+}
+.bottomLeft1{
+  width: 33.3333%;
+  border: 1px solid lightgrey;
+  float: left;
+  height: 350px;
+}
+.bottomLeft2{
+  width: 100%;
+  border: 1px solid lightgrey;
+  height: 140px;
+  margin-bottom: 15px;
+}
+.bottomLeft3{
+  width: 100%;
+  border: 1px solid black;
+  height: 175px;
+  background-color: maroon;
+}
+.mostRecent{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+.logo{
+  width: 100%;
+  height: 90px;
+  background-color:maroon;
+}
+.logo1{
+  height: 90px;
+  width: 50%;
+  float: left;
+}
+.logo2{
+  height: 90px;
+  width: 50%;
+  float: right;
+}
+.bottomContainer{
+  width: 33.3333%;
+  height: 350px;
+  float: right;
+}
+.logo2 i{
+  width: 15%;
+  margin: 40px 0 0 15px;
+  padding-left: 40px;
+  color: white;
+}
+.mostRecent span{
+  color: white;
+}
+.mostRecent i{
+  color: yellow;
+  float: right;
+  margin-right: 40px;
+}
+.bottomLeft1 img{
+  width: 100%;
+}
+.mostRecent small{
+  color: yellow;
+  margin-left: 255px;
+}
+.bottomLeft3 h3{
+  color: white;
+}
+.rightContainer ul li{
+  border-bottom:1px solid lightgrey;
+  height: 85px;
+}
+.list span{
+  color: lightgrey;
+}
+.mostRecent span{
+  padding-top: 10px;
+  display: block;
+}
+.seeAll small{
+  margin-top: -16px;
+  display: block;
+  float: left;
+  margin-left: 76%;
+}
+.mostRecent i{
+  margin-top: -16px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  section{
+    width: 100%;
+  }
+  ul{
+    margin-top: 10%;
+  }
+  aside{
+    display: none;
+  }
+  .leftContainer{
+    display: none;
+  }
+  .rightContainer{
+    width: 100%;
+  }
+  .list span{
+    color: lightgrey;
+  }
+  .seeAll small{
+    margin-top: -16px;
+    display: block;
+    float: left;
+  }
+  .list span, h6 {
+    padding-left: 5%;
+  }
+  .mostRecent i{
+    margin-top: -16px;
+  }
+  .mostRecent span{
+    padding-top: 10px;
+    display: block;
+  }
+}
+
+  @media (min-width: 769px) and (max-width: 992px){
+  section{
+  width: 100%;
+  }
+  aside{
+    display: none;
+  }
+  .list{
+    margin-top: 10%;
+  }
+  .seeAll{
+    width: 45%;
+    float: right;
+  }
+  .mostRecent small{
+    color: yellow;
+    margin-left: 20%;
+  }
+  .seeAll small,i{
+    float: left;
+    margin-left: 0;
+  }
+  .seeAll small{
+    margin-left: 20%;
+  }
+  .logo2{
+    display: none;
+  }
+  .logo1 h1{
+    padding-left: 65%;
+  }
+  .list span{
+    color: lightgrey;
+  }
+  .mostRecent span{
+    padding-top: 10px;
+    display: block;
+  }
+  .seeAll small{
+    margin-top: -16px;
+    display: block;
+    float: left;
+  }
+  .mostRecent i{
+    margin-top: -16px;
+  }
+}
