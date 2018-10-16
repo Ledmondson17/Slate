@@ -3,7 +3,7 @@ Copy of a Slate webpage
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![alt tag](Slate.png)
+![alt tag](slate.png)
 
 ## How It's Made:
 
